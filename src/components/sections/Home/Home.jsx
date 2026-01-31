@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './Home.module.css';
 
-const PROFILE_IMAGE = 'public/my-passport-photo.png';
+const PROFILE_IMAGE = '/my-passport-photo.png';
 const PROFILE_PLACEHOLDER = '/profile-placeholder.svg';
 
 function Home() {

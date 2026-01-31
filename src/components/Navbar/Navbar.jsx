@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { href: '#experience', label: 'Experience' },
   { href: '#contact', label: 'Contact' },
 ];
-const logo = "public/logo.png"
+const logo = "/logo.png"
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
