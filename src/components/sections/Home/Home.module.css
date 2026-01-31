@@ -1,0 +1,156 @@
+/* Home - hero section with profile photo, mobile-first */
+
+.home {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 1.5rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.profileWrapper {
+  flex-shrink: 0;
+  order: -1;
+}
+
+.profileImage {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--color-border);
+  box-shadow: 0 4px 20px var(--color-shadow);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+}
+
+.greeting {
+  font-size: 1rem;
+  color: var(--color-accent);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.name {
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.role {
+  font-size: clamp(1.125rem, 3vw, 1.375rem);
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.summary {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 540px;
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.ctaPrimary,
+.ctaSecondary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.ctaPrimary {
+  background: var(--color-accent);
+  color: white;
+  border: 2px solid var(--color-accent);
+}
+
+.ctaPrimary:hover {
+  background: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.ctaSecondary {
+  background: transparent;
+  color: var(--color-text);
+  border: 2px solid var(--color-border);
+}
+
+.ctaSecondary:hover {
+  background: var(--color-bg-alt);
+  border-color: var(--color-text-muted);
+  color: var(--color-text);
+  transform: translateY(-1px);
+}
+
+@media (min-width: 768px) {
+  .home {
+    padding: 5rem 2rem 4rem;
+    min-height: 85vh;
+  }
+
+  .wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    text-align: left;
+  }
+
+  .content {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+  }
+
+  .profileWrapper {
+    order: 0;
+    flex-shrink: 0;
+  }
+
+  .profileImage {
+    width: 240px;
+    height: 240px;
+  }
+
+  .summary {
+    margin-bottom: 2rem;
+  }
+
+  .cta {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profileImage {
+    width: 280px;
+    height: 280px;
+  }
+}
