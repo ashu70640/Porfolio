@@ -24,25 +24,30 @@ function Projects() {
               ))}
             </ul>
             <div className={styles.links}>
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.link}
-                aria-label={`View ${project.title} on GitHub`}
-              >
-                GitHub
-              </a>
-              <a
-                href={project.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.link}
-                aria-label={`View live ${project.title}`}
-              >
-                Live
-              </a>
-            </div>
+  {project.githubUrl && (
+    <a
+      href={project.githubUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.link}
+      aria-label={`View ${project.title} on GitHub`}
+    >
+      GitHub
+    </a>
+  )}
+
+  {project.liveUrl && (
+    <a
+      href={project.liveUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.link}
+      aria-label={`View live ${project.title}`}
+    >
+      Live
+    </a>
+  )}
+</div>
           </article>
         ))}
       </div>

@@ -19,8 +19,9 @@ function Home() {
         </h1>
         <p className={styles.role}>Software Engineer</p>
         <p className={styles.summary}>
-          Software Developer with 2.5 years of experience building and maintaining web applications
-  using React.js and Node.js, with a focus on clean and maintainable code.
+          Software Engineer with 3+ years of experience building production billing
+  and reconciliation systems on the Node.js and React,, with a focus on clean, maintainable code and
+  systems that scale.
         </p>
         <div className={styles.cta}>
           <a href="#projects" className={styles.ctaPrimary}>

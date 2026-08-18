@@ -9,31 +9,34 @@ function About() {
       <div className={styles.grid}>
         <div className={styles.textBlock}>
           <p className={styles.lead}>
-  Software Developer with 2.5 years of experience building and maintaining web applications
-  using React.js and Node.js.
+  Software Engineer with 3+ years of experience building production billing and
+  reconciliation systems on the MERN stack.
 </p>
 
 <p>
-  I have hands-on experience developing responsive user interfaces with React, Redux, and
-  modern JavaScript, along with building backend services using Node.js and Express. My work
-  involves integrating RESTful APIs, managing frontend–backend data flow, and delivering
-  production-ready features across multiple modules.
+  I own core billing-calculation and reconciliation-matching logic for a multi-country SaaS
+  platform processing 500+ invoices daily at 1K+ requests/day, along with API development for
+  a PostgreSQL-backed lease-management platform handling 5K+ requests/day. My work spans
+  responsive React/TypeScript interfaces, Node.js/Express APIs, and database design across
+  MongoDB, PostgreSQL, and Oracle.
 </p>
 
 <p>
-  In my current role, I have contributed to end-to-end feature development, performance
-  improvements using React Hooks, and dashboard implementations for real-world business
-  use cases such as billing and tenant management systems. I work in Agile environments and
-  focus on writing clean, maintainable code.
+  Beyond my day-to-day role, I've integrated LLM APIs (Google Gemini, OpenAI GPT) into
+  production features and independently architected JobSphere — a microservices-based job
+  application tracker with Redis, Docker, JWT auth, and K6 load testing up to 10K VUs. I focus
+  on writing clean, maintainable code and understanding system design tradeoffs behind the
+  features I build.
 </p>
         </div>
         <div className={styles.highlights}>
           <h3 className={styles.subheading}>Quick highlights</h3>
           <ul className={styles.list} role="list">
-  <li>2+ years of professional experience with React.js and Node.js</li>
-  <li>Built and delivered production features using REST APIs and modern JavaScript</li>
-  <li>Experience with Redux, React Hooks, and performance optimization techniques</li>
-  <li>Worked in Agile teams with exposure to HLD and LLD concepts</li>
+  <li>3+ years of professional experience across the MERN stack</li>
+  <li>Own billing-calculation and reconciliation logic processing 500+ invoices/day</li>
+  <li>Built and load-tested microservices with Redis, Docker, and K6 up to 10K VUs</li>
+  <li>Integrated LLM APIs (Google Gemini, OpenAI GPT) into production features</li>
+  <li>Working knowledge of system design fundamentals — caching, rate limiting, message queues</li>
 </ul>
 
         </div>

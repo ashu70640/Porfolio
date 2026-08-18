@@ -7,9 +7,9 @@ frontend: {
   label: 'Frontend',
   items: [
     'React.js',
-    'JavaScript',
     'Redux',
-    'HTML5',
+    'TypeScript',
+    'JavaScript',
     'Tailwind CSS'
   ],
 },
@@ -18,9 +18,18 @@ backend: {
   items: [
     'Node.js',
     'Express.js',
-    'Java',
     'REST APIs',
-    
+    'Microservices Architecture',
+    'Java',
+    'Node.js Cluster Module',
+  ],
+},
+aiAndIntegrations: {
+  label: 'AI & Integrations',
+  items: [
+    'Google Gemini API',
+    'OpenAI GPT API',
+    'Prompt Engineering',
   ],
 },
 databases: {
@@ -28,28 +37,39 @@ databases: {
   items: [
     'MongoDB',
     'PostgreSQL',
-    'MySQL'
+    'Redis',
+    'Oracle SQL',
   ],
 },
 cloudAndHosting: {
-  label: 'Cloud & Hosting',
+  label: 'DevOps & Cloud',
   items: [
-    'AWS (EC2, Lambda, S3, SQS)',
     'Docker',
-    'Render'
+    'Nginx',
+    'AWS (EC2, Lambda, S3, SQS)',
+    'Render',
+  ],
+},
+architectureAndSystemDesign: {
+  label: 'Architecture & System Design',
+  items: [
+    'Load Balancing',
+    'Caching',
+    'Rate Limiting',
+    'Message Queues',
+    'Consistent Hashing',
+    'JWT Auth',
   ],
 },
 toolsAndPlatforms: {
-  label: 'Tools & Platforms',
+  label: 'Testing & Tools',
   items: [
+    'K6 Load Testing',
+    'Jest',
+    'Postman',
     'Git',
     'GitHub',
     'Jira',
-    'Postman',
-    'VS Code',
-    'Firebase',
-    'Jest',
-    'Prompt Engineering'
   ],
 },
 
