@@ -7,6 +7,11 @@ const SOCIAL_LINKS = [
     label: 'LinkedIn',
     value: 'linkedin.com/in/ashutosh',
   },
+ {
+  href: 'https://github.com/ashu70640',
+  label: 'GitHub',
+  value: 'github.com/ashu70640',
+}
 ];
 
 function Contact() {
